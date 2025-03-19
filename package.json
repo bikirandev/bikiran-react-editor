@@ -1,0 +1,59 @@
+{
+  "name": "bikeditor",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "dist/**/*.css",
+    "dist/package.json"
+  ],
+  "scripts": {
+    "dev": "vite test",
+    "build": "node build.cjs",
+    "vite-build": "vite build",
+    "preview": "vite preview test",
+    "prepublishOnly": "npm run build",
+    "pack-local": "npm run build && npm pack",
+    "clean": "node clean.js",
+    "test": "vitest"
+  },
+  "keywords": [
+    "react",
+    "editor",
+    "component",
+    "library"
+  ],
+  "author": "Kumar Bishojit Paul",
+  "license": "MIT",
+  "type": "module",
+  "description": "A simple and reusable React input component library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bikirandev/BikEditor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bikirandev/BikEditor/issues"
+  },
+  "homepage": "https://github.com/bikirandev/BikEditor#readme",
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.2.0",
+    "@types/node": "^22.13.1",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "copyfiles": "^2.4.1",
+    "jsdom": "^23.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0",
+    "vitest": "^1.0.4"
+  },
+  "dependencies": {}
+}
