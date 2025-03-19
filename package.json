@@ -1,6 +1,6 @@
 {
   "name": "bikeditor",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -37,6 +37,7 @@
   },
   "homepage": "https://github.com/bikirandev/BikEditor#readme",
   "peerDependencies": {
+    "axios": "^1.8.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -47,6 +48,7 @@
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.20",
+    "axios": "^1.8.3",
     "copyfiles": "^2.4.1",
     "jsdom": "^23.0.1",
     "react": "^19.0.0",

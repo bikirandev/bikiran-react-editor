@@ -1,4 +1,4 @@
-✨ Rich Text Editor with Customizable Toolbar
+✨ BikEditor with Customizable Toolbar
 This Rich Text Editor is a lightweight, user-friendly solution designed for seamless content creation. Featuring an intuitive and responsive toolbar, it empowers users to format text effortlessly and enhance their writing experience. With clean aesthetics and smooth interactions, it's perfect for blogs, comments, documentation, or any content management system.
 
 ✅ Key Features:
