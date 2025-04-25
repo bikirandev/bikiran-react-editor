@@ -1,6 +1,6 @@
 {
-  "name": "bikeditor",
-  "version": "1.1.0",
+  "name": "@bikiran/editor",
+  "version": "1.2.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -30,12 +30,12 @@
   "description": "A simple and reusable React input component library",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bikirandev/BikEditor.git"
+    "url": "https://github.com/bikirandev/bikiran-react-editor.git"
   },
   "bugs": {
-    "url": "https://github.com/bikirandev/BikEditor/issues"
+    "url": "https://github.com/bikirandev/bikiran-react-editor/issues"
   },
-  "homepage": "https://github.com/bikirandev/BikEditor#readme",
+  "homepage": "https://github.com/bikirandev/bikiran-react-editor#readme",
   "peerDependencies": {
     "axios": "^1.8.3",
     "react": "^19.0.0",
